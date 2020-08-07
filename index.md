@@ -1,9 +1,3 @@
-# Enterprise Blockchain Security Specification
-
-
-### Version 1.0.0
-
-
 ## About
 
 The Enterprise Blockchain Security Specification (EBSS) is a specification aimed at fomenting a minimum standard of security for enterprise applications that make use of / or interact with a distributed ledger system, which may include both public and permissioned blockchains. The specification includes a list of requirements that SHOULD be fulfilled by such an enterprise blockchain application. It is inspired by the [Cryptocurrency Security Standards (CCSS)](https://cryptoconsortium.github.io/CCSS/) but caters to more complex applications that involve enterprise logic, tokenization solutions, and smart contracts. 
