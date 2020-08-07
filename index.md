@@ -1,7 +1,7 @@
 <h1>Enterprise Blockchain Security Specification</h1>
 
 
-<p>Version 1.0.0
+<p><b>Version 1.0.0
 
 <h2>About</h2>
 
