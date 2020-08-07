@@ -25,7 +25,7 @@ However, the specification does not cover details of cryptographic implementatio
 The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119#:~:text=Authors%20who%20follow%20these%20guidelines,as%20described%20in%20RFC%202119.).
 
 
-### Key Management
+### Domain 1: Key Management
 
 
 #### Key Generation
@@ -172,7 +172,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### Operational Policy 
+### Domain 2: Operational Policy 
 
 
 #### Node Operation
@@ -223,7 +223,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### User Privacy
+### Domain 3: User Privacy
 
 
 <table>
@@ -247,7 +247,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### Smart Contract Security
+### Domain 4: Smart Contract Security
 
 
 <table>
