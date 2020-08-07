@@ -1,6 +1,7 @@
 <h1>Enterprise Blockchain Security Specification</h1>
 
 
+<p>Version 1.0.0
 
 <h2>About</h2>
 
@@ -151,9 +152,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
    </td>
    <td><strong>HD-Wallets </strong>
    </td>
-   <td>In the case of using hierarchical deterministic key generation  (for example <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP 32</a>) a clear process MUST be defined on how seed words are stored offline for internal users. 
-<p>
-Clear guidance MUST be given to external users on seed word security.
+   <td>In the case of using hierarchical deterministic key generation  (for example <a href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">BIP 32</a>) a clear process MUST be defined on how seed words are stored offline for internal users. Clear guidance MUST be given to external users on seed word security.
    </td>
   </tr>
   <tr>
