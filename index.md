@@ -1,37 +1,31 @@
-# Enterprise Blockchain Security Specification
-
-
-### **Version 1.0.0**
-
-
-## About
+# About
 
 The Enterprise Blockchain Security Specification (EBSS) is a specification aimed at fomenting a minimum standard of security for enterprise applications that make use of / or interact with a distributed ledger system, which may include both public and permissioned blockchains. The specification includes a list of requirements that SHOULD be fulfilled by such an enterprise blockchain application. It is inspired by the [Cryptocurrency Security Standards (CCSS)](https://cryptoconsortium.github.io/CCSS/) but caters to more complex applications that involve enterprise logic, tokenization solutions, and smart contracts. 
 
 
-## Disclaimer
+# Disclaimer
 
 THE CONTENT OF THIS SPECIFICATION IS PROVIDED “AS IS”, WITHOUT REPRESENTATIONS AND WARRANTIES OF ANY KIND.
 
 THE AUTHOR AND HIS EMPLOYER DISCLAIM ANY LIABILITY FOR DAMAGE ARISING OUT OF, OR IN CONNECTION WITH THE APPLICATION OF THIS STANDARD.
 
 
-## Scope
+# Scope
 
 The EBSS SHOULD not be considered a replacement for CCSS and SHOULD be seen as complementary to existing information security standards, such as [ISO/IEC 27001:2013](https://www.iso.org/standard/54534.html). It covers best practices and organizational security policies in the design and deployment of enterprise blockchain applications, in areas, such as key generation and storage, user privacy, and administrative policies.
 
 However, the specification does not cover details of cryptographic implementations, secure coding patterns, and specific node configurations. It also does not consider the caveats of specific distributed ledger platforms and the details of their configuration. 
 
 
-## Specification
+# Specification
 
 The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119#:~:text=Authors%20who%20follow%20these%20guidelines,as%20described%20in%20RFC%202119.).
 
 
-### Key Management
+## Key Management
 
 
-#### Key Generation
+### Key Generation
 
 
 <table>
@@ -71,7 +65,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-#### Key Storage
+### Key Storage
 
 
 <table>
@@ -103,7 +97,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-#### Key Usage Protocol
+### Key Usage Protocol
 
 
 <table>
@@ -143,7 +137,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-#### Key Recovery
+### Key Recovery
 
 
 <table>
@@ -175,10 +169,10 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### Operational Policy 
+## Operational Policy 
 
 
-#### Node Operation
+### Node Operation
 
 
 <table>
@@ -202,7 +196,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-#### IT Security
+### IT Security
 
 
 <table>
@@ -226,7 +220,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### User Privacy
+## User Privacy
 
 
 <table>
@@ -250,7 +244,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 
 
 
-### Smart Contract Security
+## Smart Contract Security
 
 
 <table>
