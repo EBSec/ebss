@@ -142,6 +142,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
 </table>
 
 
+
 <h3>Key Recovery</h3>
 
 
@@ -174,6 +175,7 @@ Clear guidance MUST be given to external users on seed word security.
    </td>
   </tr>
 </table>
+
 
 
 <h2>Operational Policy </h2>
