@@ -1,4 +1,4 @@
-# Enterprise Blockchain Security Specification
+## Enterprise Blockchain Security Specification
 
 
 ## About
@@ -265,6 +265,30 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
    <td><strong>Contract Monitorization</strong>
    </td>
    <td>Smart contracts that hold significant value SHOULD be monitored in real-time.
+   </td>
+  </tr>
+</table>
+
+
+
+### Domain 5: Supply Chain
+
+
+<table>
+  <tr>
+   <td><strong>R5.1.1</strong>
+   </td>
+   <td><strong>Third-party software</strong>
+   </td>
+   <td>Third party software, such as libraries used MUST be vetted for known security issues and if critical components SHOULD be audited. In the case of a library being deployed in the context, in which private keys are accessible, it MUST be supplied by a trusted party.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>R5.1.2</strong>
+   </td>
+   <td><strong>Sourcing and Integration</strong>
+   </td>
+   <td>DIstribution channels of third party software MUST be reliably vetted. In the case of packet downloaded packages, integration checksums SHOULD be verified. Whenever possible, reliable package and dependency management software SHOULD be used. Content distribution networks SHOULD be avoided for integration.
    </td>
   </tr>
 </table>
