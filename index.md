@@ -93,7 +93,7 @@ The words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT�
    </td>
    <td><strong>Node Software  Key Store </strong>
    </td>
-   <td>Keys MUST not be stored in the blockchain platform’s in-node wallet. Instead, keys SHOULD be stored in encrypted format in a separate location and raw transactions SHOULD be processed by the node, meaning the transactions are not signed by the node software itself.
+   <td>Keys SHOULD not be stored in the blockchain platform’s in-node wallet. Instead, keys SHOULD be stored in encrypted format in a separate location and raw transactions SHOULD be processed by the node, meaning the transactions are not signed by the node software itself.
    </td>
   </tr>
 </table>
